@@ -1,0 +1,179 @@
+.img{
+    background-image: url(./images/home6.png);
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.img2{
+position: relative;
+left: 250px;
+top:60px;
+width: 270px;
+z-index: 4;
+}
+.img3{
+position: relative;
+right: 100px;
+z-index: 3;
+width: 200px;
+}
+.img4{
+position: relative;
+bottom:-20px;
+left: -20px;
+width: 100px;
+/* height: 100px; */
+z-index: 2;
+    
+}
+.img5{
+position: relative;
+bottom: 420px;
+right: -70px;
+z-index: 1;
+    
+}
+
+.nav-ul li{
+    display: inline-block;
+    padding: 15px;
+    font-size: small;
+    font-weight: 600;
+    position: relative;
+    left: 285px;
+}
+.nav-ul li a{
+    text-decoration: none;
+    color: black;
+}
+.img-scooter{
+    margin-top: 30px;
+    display: inline-block;
+    width: 35px;
+    position: relative;
+    left:400px
+    
+}
+.number{
+    display: inline-block;
+    font-size: small;
+    font-weight: 600;
+    position: relative;
+    left: 420px;
+    top: 15px;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 150px;
+}
+
+.burger{
+    margin-left: 20px;
+    margin-top: 150px;
+    border: 2px dashed black;
+    padding: 10px;
+    font-size: larger;
+    font-weight: 600;
+}
+.burgerh1{
+    margin-left: 20px;
+    margin-top: 40px;
+   
+}
+.burgerh1 h1{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.burgerh1 h2{
+    font-size: 70px;
+    font-weight: 600;
+}
+.rat{
+    position: relative;
+    bottom: 18px;
+}
+.stars{
+    position: relative;
+    bottom: 3px;
+    left: 3px;
+}
+.card_style{
+    cursor: pointer;
+    transition: .3s;
+    background-color: rgb(222, 222, 222);
+}
+  
+  .smalltrash{
+      display: none;
+  }
+  
+  
+  .card_style:hover{
+      box-shadow: 0 0 5px 5px rgba(237, 237, 237, 0.95);
+  }
+  
+  .iteamsdetails{
+      max-width: 800px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 0 5px 2px rgb(0, 0, 0);
+  }
+  .items_img{
+      flex: .4;
+  }
+  .items_img img{
+      width: 20rem;
+      border-radius: 5px;
+      
+  }
+ 
+
+  .search{
+    width: 1000px;
+    padding: 10px;
+    border-radius: 4px;
+
+    margin: 20px;
+  }
+  input:focus{
+    box-shadow: 0 0 5px 5px rgba(237, 237, 237, 0.95);
+
+
+  }
+
+
+  @media (max-width:772px){
+      .iteamsdetails{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+  }
+  
+  @media (max-width:450px){
+      .smalltrash{
+          display: block;
+      }
+      .largetrash{
+          display:none;
+      }
+      .emptycart_img{
+          margin-right: 50px;
+      }
+      .smallclose{
+          display: none;
+      }
+  
+      /* individual iteams details */
+     
+      .items_img img{
+          width: 16rem;
+      }
+      
+  }
